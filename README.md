@@ -5,6 +5,8 @@ CREDITS
 ===
 GRUB theme: https://github.com/13atm01/GRUB-Theme
 
+Greeter background: designed by myself, but containing elements designed by https://twitter.com/awan0918/
+
 Installation
 ===
 After you boot into the installation media, check for your internet connection. Then do as follows:
