@@ -44,6 +44,8 @@ Aria2 makes the downloads slower for small files.
 
 To do 2
 =====
+Time zone is not being set.
+
 Download time: 25 minutes, expected time: 11 minutes. Solve it.
 
 Installation time: 4:35 , perfect
