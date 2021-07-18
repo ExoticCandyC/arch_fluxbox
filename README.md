@@ -33,7 +33,11 @@ https://wiki.ubuntu.com/systemd#Boot_loader_configuration
 #FIXED# home extract.sh is not working. debug it (root is working just fine)
 
 
-in .config: 1) make xrandr execute in two lines (dpi in a separate line) 2) fix persepolis font size
+in .config: 
+
+#DONE# 1) make xrandr execute in two lines (dpi in a separate line) 
+
+#DONE# 2) fix persepolis font size (changed to 11)
 
 
 Aria2 makes the downloads slower for small files.
@@ -48,11 +52,11 @@ add pamac-manager to gnome-pie -> aur_pamac_install.sh
 
 add pamac to pacman ignored list -> aur_pamac_install.sh
 
-xterm keeps opening with pink color. fix that one as well.
-
 add conky and my own conky setup to the build
 
-Add discord to the installer and gnome-pie. #added to the installer
+#DONE# xterm keeps opening with pink color. fix that one as well.
+
+#DONE# Add discord to the installer and gnome-pie.
 
 #DONE# There is a refference to ec user in fluxbox startup script. fix it.
 
