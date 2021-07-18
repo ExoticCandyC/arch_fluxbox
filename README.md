@@ -42,6 +42,25 @@ in .config:
 
 Aria2 makes the downloads slower for small files.
 
+To do 2
+=====
+Download time: 25 minutes, expected time: 11 minutes. Solve it.
+
+Installation time: 4:35 , perfect
+
+change icon for terminator in pie. it's showing as a black circle right now.
+
+hide hidden files in nautilus.
+
+add poweroff to the pie
+
+remove -v from tar and rm commands in homes installer. the printing is taking too much time to be viable. add a prompt instead, so the user knows what are they waiting for.
+
+mute the linux boot. it is showing prompts for everything.
+
+GRUB customization.
+
+
 To do
 =====
 Customize GRUB and LightDM.
