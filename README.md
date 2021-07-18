@@ -1,6 +1,19 @@
 # Arch installer, fluxbox edition
 auto script to install my arch with fluxbox window manager, and load all the settings for me, so i dont have to do them every single time
 
+Installation
+=====
+After you boot into the installation media, check for your internet connection. Then do as follows:
+
+  pacman -Sy
+  pacman -S git
+  git clone https://github.com/ExoticCandyC/arch_fluxbox.git
+  cd arch_fluxbox
+  chmod +x install.sh
+  ./install.sh
+
+you will be told what to do next.
+
 To do
 =====
 write the script for aur_pamac_install.sh
