@@ -44,6 +44,6 @@ done
 chmod +x pacstraper.sh
 ./pacstraper.sh
 
-#rm /mnt/arch_installer -r
-#reboot
+rm /mnt/arch_installer -r
+reboot
 
