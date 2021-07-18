@@ -22,7 +22,7 @@ Ram usage in IDLE mode is ~218MB when this build boots.
 
 Issues:
 ===
-Boot loader problems.
+#Done, Test it please# Boot loader problems.
 
 The issue with bootloader is the symlink to /sbin/init doesn't generate. before making bootloader config, add "init=/lib/systemd/systemd" to /etc/default/grub.
 
@@ -30,7 +30,7 @@ https://wiki.ubuntu.com/systemd#Boot_loader_configuration
 
     GRUB_CMDLINE_LINUX_DEFAULT="init=/lib/systemd/systemd"
 
-home extract.sh is not working. debug it (root is working just fine)
+#FIXED# home extract.sh is not working. debug it (root is working just fine)
 
 
 in .config: 1) make xrandr execute in two lines (dpi in a separate line) 2) fix persepolis font size
@@ -48,16 +48,16 @@ add pamac-manager to gnome-pie -> aur_pamac_install.sh
 
 add pamac to pacman ignored list -> aur_pamac_install.sh
 
+xterm keeps opening with pink color. fix that one as well.
+
+add conky and my own conky setup to the build
+
+Add discord to the installer and gnome-pie. #added to the installer
+
 #DONE# There is a refference to ec user in fluxbox startup script. fix it.
 
 #DONE, TEST IT OUT# Add --dpi 90 to xrandr on the startup
 
 #NOT NEEDED ANYMORE# Add startup script to run persepolis, sleep for 1 second and then kill it
 
-Add discord to the installer and gnome-pie. #added to the installer
-
-xterm keeps opening with pink color. fix that one as well.
-
 #DONE# also see if you can add the pre arch-chroot commands to it as well. we need two installer scripts. one for pre arch-chroot and one for post
-
-add conky and my own conky setup to the build
