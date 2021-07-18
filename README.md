@@ -33,6 +33,8 @@ https://wiki.ubuntu.com/systemd#Boot_loader_configuration
 home extract.sh is not working. debug it
 
 
+in .config: 1) make xrandr execute in two lines (dpi in a separate line) 2) fix persepolis font size
+
 
 Aria2 makes the downloads slower for small files.
 
