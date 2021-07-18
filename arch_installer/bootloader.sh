@@ -14,7 +14,7 @@ case $BootType in
     echo "Setting up legacy bootloader."
     echo "Please enter the drive letter you want to install bootloader on: (/dev/sda)"
     read BootDrive 
-    pacman -S grub os-prober
+    pacman -S --noconfirm grub os-prober
     mycmd=(grub-install)
     mycmd+=("$BootDrive")
     "${mycmd[@]}"
@@ -27,7 +27,7 @@ case $BootType in
     echo "Setting up UEFI bootloader."
     echo "Please enter the partition letter of your EFI drive: (/dev/sda1)"
     read EfiDrive
-    pacman -S grub efibootmgr
+    pacman -S --noconfirm grub efibootmgr
     mkdir /boot/efi
     mycmd=(mount)
     mycmd+=("$EfiDrive")
