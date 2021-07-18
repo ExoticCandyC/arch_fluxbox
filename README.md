@@ -23,6 +23,16 @@ Ram usage in IDLE mode is ~218MB when this build boots.
 Issues:
 ===
 Boot loader problems.
+
+The issue with bootloader is the symlink to /sbin/init doesn't generate. before making bootloader config, add "init=/lib/systemd/systemd" to /etc/default/grub.
+https://wiki.ubuntu.com/systemd
+
+    GRUB_CMDLINE_LINUX_DEFAULT="init=/lib/systemd/systemd"
+
+home extract.sh is not working. debug it
+
+
+
 Aria2 makes the downloads slower for small files.
 
 To do
