@@ -25,7 +25,8 @@ Issues:
 Boot loader problems.
 
 The issue with bootloader is the symlink to /sbin/init doesn't generate. before making bootloader config, add "init=/lib/systemd/systemd" to /etc/default/grub.
-https://wiki.ubuntu.com/systemd
+
+https://wiki.ubuntu.com/systemd#Boot_loader_configuration
 
     GRUB_CMDLINE_LINUX_DEFAULT="init=/lib/systemd/systemd"
 
