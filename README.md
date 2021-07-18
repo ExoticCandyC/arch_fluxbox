@@ -16,7 +16,9 @@ you will be told what to do next.
 
 Download Size
 ===
-First pacstrap phase is currently download 1045.50MB of data and has a ~4500MB foot print on hard drive. Ram usage in IDLE mode is ~218MB.
+First pacstrap phase is currently downloading 1045.50MB of data and has a ~4500MB foot print on hard drive.
+
+Ram usage in IDLE mode is ~218MB when this build boots.
 
 To do
 =====
