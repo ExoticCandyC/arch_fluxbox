@@ -2,11 +2,17 @@
 
 # TODO: check for boot system here.
 
+echo "installing aria2 download manager"
+pacman -S --needed --noconfirm aria2
+
 echo "keyserver hkp://keyserver.ubuntu.com" >> /etc/pacman.d/gnupg/gpg.conf
 echo "Downloading andontie key file."
 pacman-key --recv-key B545E9B7CD906FE3
 echo "Adding andontie key file to the installer media."
 pacman-key --lsign-key B545E9B7CD906FE3
+
+echo "Setting up pacman to download with aria2 download manager."
+sed -i 's/#XferCommand = \/usr\/bin\/curl -L -C - -f -o %o %u/XferCommand = \/usr\/bin\/aria2c --allow-overwrite=true --continue=true --file-allocation=none --log-level=error --max-tries=50 --max-connection-per-server=16 --max-file-not-found=5 --min-split-size=5M --no-conf --remote-time=true --summary-interval=60 --timeout=10 --dir=\/ --out %o %u/g' /etc/pacman.conf
 
 echo "Enabling multilib and andontie repositories for the installer media."
 echo "" >> /etc/pacman.conf
