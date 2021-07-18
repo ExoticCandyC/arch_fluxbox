@@ -30,7 +30,7 @@ https://wiki.ubuntu.com/systemd#Boot_loader_configuration
 
     GRUB_CMDLINE_LINUX_DEFAULT="init=/lib/systemd/systemd"
 
-home extract.sh is not working. debug it
+home extract.sh is not working. debug it (root is working just fine)
 
 
 in .config: 1) make xrandr execute in two lines (dpi in a separate line) 2) fix persepolis font size
