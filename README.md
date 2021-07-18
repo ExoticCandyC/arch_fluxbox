@@ -50,6 +50,10 @@ Aria2 makes the downloads slower for small files.
 
 To do 2
 =====
+https://askubuntu.com/questions/73804/wrong-login-screen-resolution
+
+https://wiki.archlinux.org/title/LightDM#GTK_greeter
+
 xrandr dpi is not being set, weird
 
 Time zone is not being set.
