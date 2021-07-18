@@ -1,5 +1,7 @@
 #!/bin/sh
 
+pacman -S --noconfirm systemd-sysvcompat 
+
 cd /arch_installer/
 
 chmod +x pacman_repo.sh
