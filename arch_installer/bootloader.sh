@@ -18,8 +18,8 @@ case $BootType in
     mycmd=(grub-install)
     mycmd+=("$BootDrive")
     "${mycmd[@]}"
-    sed -i 's/#GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX_DEFAULT="init=\/lib\/systemd\/systemd"/g' /etc/default/grub
-    sed -i 's/GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX_DEFAULT="init=\/lib\/systemd\/systemd"/g' /etc/default/grub
+    rm /etc/default/grub
+    cp ./GRUB/grub /etc/default/grub
     grub-mkconfig -o /boot/grub/grub.cfg
     ;;
      
@@ -34,8 +34,8 @@ case $BootType in
     mycmd+=("/boot/efi")
     "${mycmd[@]}"
     grub-install --target=x86_64-efi --bootloader-id=GRUB --efi-directory=/boot/efi
-    sed -i 's/#GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX_DEFAULT="init=\/lib\/systemd\/systemd"/g' /etc/default/grub
-    sed -i 's/GRUB_CMDLINE_LINUX=""/GRUB_CMDLINE_LINUX_DEFAULT="init=\/lib\/systemd\/systemd"/g' /etc/default/grub
+    rm /etc/default/grub
+    cp ./GRUB/grub /etc/default/grub
     grub-mkconfig -o /boot/grub/grub.cfg
     ;;
 esac
