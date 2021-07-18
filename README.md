@@ -44,6 +44,10 @@ Aria2 makes the downloads slower for small files.
 
 To do
 =====
+Customize GRUB and LightDM.
+
+add prompt to ask for username
+
 Add poweroff to gnome-pie for shutdown. that command works without any problems.
 
 Add aria2 support for pacman so it downloads faster: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#aria2
