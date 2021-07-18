@@ -22,6 +22,8 @@ Ram usage in IDLE mode is ~218MB when this build boots.
 
 To do
 =====
+Add aria2 support for pacman so it downloads faster: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#aria2
+
 write the script for aur_pamac_install.sh
 
 add pamac-manager to gnome-pie -> aur_pamac_install.sh
