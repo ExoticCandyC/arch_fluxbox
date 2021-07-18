@@ -14,6 +14,10 @@ After you boot into the installation media, check for your internet connection. 
 
 you will be told what to do next.
 
+Download Size
+===
+First pacstrap phase is currently download 1045.50MB of data and has a ~4500MB foot print on hard drive. Ram usage in IDLE mode is ~218MB.
+
 To do
 =====
 write the script for aur_pamac_install.sh
