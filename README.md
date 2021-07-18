@@ -1,6 +1,10 @@
 # Arch installer, fluxbox edition
 auto script to install my arch with fluxbox window manager, and load all the settings for me, so i dont have to do them every single time
 
+CREDITS
+===
+GRUB theme: https://github.com/13atm01/GRUB-Theme
+
 Installation
 ===
 After you boot into the installation media, check for your internet connection. Then do as follows:
