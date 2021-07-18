@@ -46,7 +46,7 @@ pacstrap /mnt sudo \
   ntfs-3g \
   gimp \
   discord \
-  conky-lua-nv \
+  conky \
   base-devel \
   --noconfirm
 
