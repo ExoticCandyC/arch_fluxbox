@@ -20,6 +20,11 @@ First pacstrap phase is currently downloading 1045.50MB of data and has a ~4500M
 
 Ram usage in IDLE mode is ~218MB when this build boots.
 
+Issues:
+===
+Boot loader problems.
+Aria2 makes the downloads slower for small files.
+
 To do
 =====
 Add aria2 support for pacman so it downloads faster: https://wiki.archlinux.org/title/Pacman/Tips_and_tricks#aria2
