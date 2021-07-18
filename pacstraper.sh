@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # TODO: check for boot system here.
-
+ 
 echo "installing aria2 download manager"
 pacman -S --needed --noconfirm aria2
 
