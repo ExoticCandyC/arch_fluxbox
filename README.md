@@ -10,6 +10,7 @@ add pamac-manager to gnome-pie -> aur_pamac_install.sh
 add pamac to pacman ignored list -> aur_pamac_install.sh
 
 #DONE# There is a refference to ec user in fluxbox startup script. fix it.
+
 #DONE, TEST IT OUT# Add --dpi 90 to xrandr on the startup
 
 #NOT NEEDED ANYMORE# Add startup script to run persepolis, sleep for 1 second and then kill it
