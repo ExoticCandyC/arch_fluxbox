@@ -4,6 +4,8 @@ pacman -S --noconfirm systemd-sysvcompat
 
 cd /arch_installer/
 
+pacman -U --noconfirm otf-metropolis-r11-1-any.pkg.tar.zst
+
 chmod +x pacman_repo.sh
 #chmod +x pacmanInstall.sh
 chmod +x aur_pamac_install.sh
