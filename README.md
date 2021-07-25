@@ -104,3 +104,5 @@ add conky and my own conky setup to the build
 #NOT NEEDED ANYMORE# Add startup script to run persepolis, sleep for 1 second and then kill it
 
 #DONE# also see if you can add the pre arch-chroot commands to it as well. we need two installer scripts. one for pre arch-chroot and one for post
+
+temp: https://github.com/zentyal/samba/blob/master/examples/smb.conf.default
