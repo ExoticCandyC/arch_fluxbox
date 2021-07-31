@@ -105,4 +105,4 @@ add conky and my own conky setup to the build
 
 #DONE# also see if you can add the pre arch-chroot commands to it as well. we need two installer scripts. one for pre arch-chroot and one for post
 
-#EOF
+#1E1O1F
